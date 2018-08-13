@@ -16,3 +16,6 @@ clearing database before each test method (script will be fired before each meth
 @Sql(value = "delete_all_customers.sql")
 class CustomerRepositoryTest {
 ```
+
+# tests
+**Coverage**: `70%`
