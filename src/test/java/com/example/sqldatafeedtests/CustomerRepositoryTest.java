@@ -21,7 +21,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
  */
 @SpringBootTest
 @ExtendWith(SpringExtension.class)
-@Sql(value = "delete_all_customers.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
+@Sql(value = "delete_all_customers.sql")
 class CustomerRepositoryTest {
 
     @Autowired
@@ -39,7 +39,7 @@ class CustomerRepositoryTest {
     }
 
     @Test
-    @Sql(value = "insert_customer_id_1.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
+    @Sql(value = "insert_customer_id_1.sql")
     void findAll_entities() {
 //        given
         Customer expectedCustomer = Customer.builder()
