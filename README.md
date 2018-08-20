@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/mtumilowicz/sql-datafeed-tests.svg?branch=master)](https://travis-ci.com/mtumilowicz/sql-datafeed-tests)
+
 # sql-datafeed-tests
 The main goal of this project is to show how to feed tests with sqls.
 
